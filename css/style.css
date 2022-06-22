@@ -81,6 +81,9 @@ p {
 
 /* Header */
 .page-header {
+  display: flex;
+  align-items: center;
+
   border-bottom: 1px solid #ececec;
 }
 
@@ -622,7 +625,7 @@ p {
 
 .subscribe-button:hover,
 .subscribe-button:focus {
-  background-color: #188ce8;
+  background-color: var(--button-hover-color);
 }
 
 .subscribe-button__icon {
@@ -968,7 +971,7 @@ p {
 
 .send-button:hover,
 .send-button:focus {
-  background-color: #188ce8;
+  background-color: var(--button-hover-color);
   cursor: pointer;
 }
 
